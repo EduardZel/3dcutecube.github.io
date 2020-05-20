@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Weblapa </title>
+<meta charset="utf-16">
+</head>
+<body>
+  <article></article>
+  <footer></footer>
+  <section></section>
+  <header></header>
+  <nav></nav>
+  <noframes></noframes>
+  <navigation></navigation>
+  <nav ul></nav ul>
+<style> 
+{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-size: 100%;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}/*
+</style>
+<footer>
+  <div align="center"> 3D kubs </h1></div>
+  <h2 align="center"> Šī weblapa ir atvēlēta 3d kubam, kuru veidoju informātikas stundā. </h2>
+  <br> Šeit Jūs varēsiet iepazīties ar darba rezultātu, kā arī pāriet uz programmu, kuru lietoju kuba veidošanai. </h2>
+  <p ><h3> Kuba projektēšanai izmantoju programmu "Tinkercad". Uzspiežot
+				<a href="https://www.tinkercad.com/" >Seit</a>, Jūs pāriesiet uz programmas mājaslapu.
+</footer>
+<p> Tas ir kuba detaļas </p>
+<img src="file:///C:/website/11.jpg width="150" height="140">
+<img src="file:///C:/website/11.jpg" width="150" height="190">
+<nav>
+  <p> Pēc tam palika tikai salīmēt visas detļas, un kubs bija gatavs </p>
+</nav>
+<img src="file:///C:/website/14.jpg" width="150" height="140">
+<img src="file:///C:/website/15.jpg" width="150" height="140">
+<img src="file:///C:/website/16.jpg" width="150" height="140">
+<img src="file:///C:/website/12.jpg" width="150" height="140">
+<article>
+  <p>Lūdzu novērtējiet šīs mājaslapas apmeklēsanas pieredzi no 1 līdz 5!</h2></p>
+</article>
+		<form action="/action_page.php"> <h3>
+ 			<input type="radio" id="loti patika" name="vertejums" value="loti patika">
+			<label for="loti patika">5</label><br>
+			<input type="radio" id="patika" name="vertejums" value="patika">
+			<label for="patika">4</label><br>
+			<input type="radio" id="viduveji" name="vertejums" value="viduveji">
+			<label for="viduveji">3</label><br>
+			<input type="radio" id="nepatika" name="vertejums" value="nepatika">
+			<label for="nepatika">2</label><br>
+			<input type="radio" id="pavisam nepatika" name="vertejums" value="pavisam nepatika">
+			<label for="pavisam nepatika">1</label><br>
+			<input type="submit" value="Novertet!">
+		</h3></form>
+</body>
+</html>
